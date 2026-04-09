@@ -49,7 +49,7 @@ bin/activate
 .ipynb_checkpoints/
 *.ipynb
 
-# Data Files (Large datasets, test data)
+# Data Files (Large datasets, test data, exports)
 *.csv
 *.json
 !requirements.txt
