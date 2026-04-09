@@ -1,0 +1,72 @@
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+bin/activate
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Data Files (Large datasets, test data)
+*.csv
+*.json
+!requirements.txt
+!package.json
+!pyproject.toml
+!.github/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Credentials
+*.pem
+*.key
+*.pub
+credentials.json
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
