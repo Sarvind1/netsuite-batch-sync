@@ -1,7 +1,12 @@
-# Environment Variables
+# Environment Variables & Secrets
 .env
 .env.*
 *.env
+*.pem
+*.key
+*.pub
+credentials.json
+secrets.json
 
 # Python
 __pycache__/
@@ -39,8 +44,10 @@ bin/activate
 *.swp
 *.swo
 *~
-.DS_Store
-Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
 # Data Files (Large datasets, test data)
 *.csv
@@ -50,23 +57,14 @@ Thumbs.db
 !pyproject.toml
 !.github/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Credentials
-*.pem
-*.key
-*.pub
-credentials.json
-secrets.json
-
 # Logs
 *.log
 logs/
 
 # OS
+.DS_Store
 .AppleDouble
 .LSOverride
 .Spotlight-V100
 .Trashes
+Thumbs.db
